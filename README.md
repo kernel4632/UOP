@@ -213,7 +213,7 @@ def borrow(self, bookName, userId):
 
 ### 复用克制：绝不提前抽象
 
-未知的复用都是猜想。
+> 未知的复用都是猜想。
 ```python
 # ❌ 提前抽象，实际可能不会用第二次
 def buildQueryParams(filters, sort, page):  # 猜测未来会复用这个
