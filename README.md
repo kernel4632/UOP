@@ -141,10 +141,10 @@ def processOrder(orderId):
 ### 文件按"人类能理解的大块"划分
 
 ```
-user.py      # 所有跟用户有关的事
-book.py      # 所有跟书有关的事
-order.py     # 所有跟订单有关的事
-report.py    # 所有报表和统计
+user.py      # 所有跟用户有关的操作
+book.py      # 所有跟书有关的操作
+order.py     # 所有跟订单有关的操作
+report.py    # 所有报表和统计的操作
 utils.py     # 放最通用的工具函数
 ```
 
